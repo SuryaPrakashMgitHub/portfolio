@@ -5,7 +5,7 @@ import About from './About';
 import Councet from './Councet'; // assuming this is your Contact component
 import Project from './Project';
 import './App.css';
-import { motion } from 'framer-motion'; // ✅ Correct import
+// import { motion } from 'framer-motion'; // ✅ Correct import
 
 function App() {
   return (
