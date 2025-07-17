@@ -4,7 +4,7 @@ import Home from './Home';
 import About from './About';
 // import Project from './Project';
 import Councet from './Councet'; // (I assume you meant "Contact")
-import Project from './project';
+import Project from './Project';
 import './App.css';
 
 
