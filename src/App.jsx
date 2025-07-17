@@ -6,7 +6,8 @@ import About from './About';
 import Councet from './Councet'; // (I assume you meant "Contact")
 import Project from './Project';
 import './App.css';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import motion from 'framer-motion';
 
 
 
