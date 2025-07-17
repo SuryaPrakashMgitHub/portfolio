@@ -1,0 +1,176 @@
+.squares-canvas {
+  width: 99vw;
+  height: 500px;
+  border: none;
+  background-color: black;
+  position: relative;
+  /* display: block; */
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.name{
+  position: absolute;
+  top: 30%;
+  left: 40px;
+  color: aliceblue;
+}
+
+
+.hello{
+  padding-left: 40px;
+}
+#surya{
+  color: greenyellow;
+}
+.scroll{
+  margin-top: 10px;
+}
+.skill{
+  margin-top: 30px;
+  
+  background-color: black;
+  color: greenyellow;
+  text-align: center;
+  padding-top: 20px;
+}
+.skill-text{
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+   line-height: 2;
+   padding-top: 20px;
+   text-indent: 50px;
+
+}
+.banner-text{
+  background-color: none;
+}
+.container{
+  margin-top: 40px;
+  color: black;
+}
+.increase{
+  padding-left: 80px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.col:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.button{
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;    
+}
+.about{
+  margin-top: 40px;
+  text-align: center
+
+}
+.about-me{
+  padding-left: 20px;
+  color: greenyellow;
+}
+.about-text{
+  padding-left: 10px;
+  margin-top: 20px;
+   line-height: 2;
+   text-indent: 50px;
+   
+}
+.project-text{
+   padding-left: 10px;
+    line-height: 2;
+    text-indent: 50px;
+}
+ /* center only the first rendered line */
+
+.project{
+  padding-left: 28px;
+  
+}
+.p{
+    margin-top: 30px;
+  
+  background-color: black;
+  color: greenyellow;
+  text-align: center;
+  padding-top: 20px;
+}
+.contact{
+  padding-left: 30px;
+   color: greenyellow;
+}
+.holl{
+  background-color: black;
+  color: white;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full screen center */
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* Circle shape */
+  box-shadow: 0 4px 15px rgba(141, 182, 0, 0.6); /* Apple green shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.photo img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 8px 25px rgba(141, 182, 0, 0.9);
+}
+
+.footer{
+   text-align: center;
+}
+@media (max-width: 767px) {
+  .banner-text {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .banner-text h3.hello {
+    font-size: 1.5rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .astro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .astro img {
+    width: 80px;
+    height: auto;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+}
