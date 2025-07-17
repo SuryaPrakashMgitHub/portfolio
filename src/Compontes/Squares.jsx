@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 import './Squares.css';
-import ScrollVelocity from '../ScrollVelocity/ScrollVelocity';
+import Scrolllvelocity from '../../ScrollVelocity/ScrollVelocity';
 import CountUp from'../../Count/CountUp/CountUp'
 
 import imges from '../assets/newImg.png'
