@@ -1,8 +1,7 @@
 import { useRef, useEffect } from 'react';
 import './Squares.css';
-import DecryptedText from '../../../ReactBites/DecryptedText/DecryptedText';
-import ScrollVelocity from '../../../Scroll/ScrollVelocity/ScrollVelocity'
-import CountUp from'../../../Count/CountUp/CountUp'
+import ScrollVelocity from '../ScrollVelocity/ScrollVelocity';
+import CountUp from'../../Count/CountUp/CountUp'
 
 import imges from '../assets/newImg.png'
 import photo from '../assets/photo.png'
