@@ -1,3 +1,4 @@
+import React from 'react'; 
 import { useRef, useEffect } from 'react';
 import './Squares.css';
 import Scrolllvelocity from '../../ScrollVelocity/ScrollVelocity';
@@ -183,7 +184,7 @@ responsive, and user-friendly websites.
  I'm currently honing my skills and excited to work on real-world projects
   that solve problems and create value.”" /> */}
   <div className='scroll'>
-     <ScrollVelocity />
+     <Scrolllvelocity />
   </div>
   <div className="holl">
    <h2 className='skill'>👋 Skills</h2>
