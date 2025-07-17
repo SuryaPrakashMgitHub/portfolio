@@ -105,6 +105,7 @@ const Squares = ({
       drawGrid();
       requestRef.current = requestAnimationFrame(updateAnimation);
     };
+    
 
     const handleMouseMove = (event) => {
       const rect = canvas.getBoundingClientRect();
