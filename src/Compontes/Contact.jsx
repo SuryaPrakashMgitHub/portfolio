@@ -37,6 +37,7 @@ const Contact = () => {
         Contact <span className='contact-subtitle'></span>
       </h1>
      
+     
 
       {showSuccess && (
         <div className="alert-container">
